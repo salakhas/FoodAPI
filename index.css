@@ -1,0 +1,17 @@
+.leftMargin{
+    margin-left: 350px;
+}
+.autoDiv{
+    margin: auto;
+}
+.centerSpace{
+    margin-left: 400px;
+}
+.myImage{
+    width: 350px;
+    height: 300px;
+}
+.column{
+    width: 350px;
+    height: fit-content;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Food App</title>
+</head>
+<body>
+    <div id="navbarContainer"></div><br/>
+    <div class="container leftMargin" id="searchContainer">
+        <div class="bg-white w-50 moveLeft"><br/>
+            <h2 class="text-center text-success"><b>Search for a Recipe!</b></h1><br/>
+            <h4 class="text-center colrs"><small>Enter the name of your favourite dish.</h4><br/>
+             <div class="container border top " style="width: 75%;">
+                <form id="dishForm">
+                    <div class="col mb-3"><br/>
+                        <div class="input-group">
+                          <input type="text" class="form-control " id="searchBox" placeholder="Enter dish" >
+                        </div>
+                      </div><br/>
+                      <div class="col  text-center">
+                        <button class="btn btn-info btn-default btn-block fontSize" id="search">Search</button><br/>
+                       
+                    </div>
+                </form><br/>
+            </div><br/>
+        </div>
+    </div><br/>
+    <div class="container autoDiv centerSpace" id="container"></div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
