@@ -79,7 +79,7 @@ function displayRecipeOfDay(res){
                     ${res[0].strIngredient2} - ${res[0].strMeasure2},
                     ${res[0].strIngredient3} - ${res[0].strMeasure3},
                     ${res[0].strIngredient4} - ${res[0].strMeasure4}`;
-
+    li.setAttribute("class","h6 mt-3")
     ingredientsDiv.append(heading,li)
 
     const instructions1 = document.createElement("p");
