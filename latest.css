@@ -1,0 +1,17 @@
+.rows{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    row-gap: 10px;
+            
+}
+.customImg{
+    width: 200px;
+    height: 200px;
+    
+}
+.moveRight{
+    margin-right: -35px;
+}
+.moveOver{
+    margin-left: 300px;
+}

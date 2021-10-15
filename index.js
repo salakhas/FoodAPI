@@ -1,4 +1,5 @@
 import Navbar from "./navbar.js";
+import getFetch from "./fetch.js";
 const navbar = Navbar();
 const navbarContainer = document.getElementById("navbarContainer");
 navbarContainer.innerHTML = navbar;
@@ -32,7 +33,7 @@ const debounceFunction = (func, delay) => {
 
 
 function getReceipeByName(value){
-    return fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${value}`)
+    getFetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${value}`)
     .then((res) => res.json())
     .then((res) => {
         console.log("res.meals =>",res.meals)

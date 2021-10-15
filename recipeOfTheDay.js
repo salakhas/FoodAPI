@@ -1,4 +1,5 @@
 import Navbar from "./navbar.js";
+import getFetch from "./fetch.js";
 const navbar = Navbar();
 const navbarContainer = document.getElementById("navbarContainer");
 navbarContainer.innerHTML = navbar;
@@ -8,7 +9,7 @@ window.addEventListener("load",function() {
 });
 
 function getRecipeOfDay(){
-    fetch("https://www.themealdb.com/api/json/v1/1/random.php")
+    getFetch("https://www.themealdb.com/api/json/v1/1/random.php")
     .then((res)=> res.json())
     .then((res)=>{
         console.log(res.meals)
@@ -17,6 +18,7 @@ function getRecipeOfDay(){
 }
 
 function displayRecipeOfDay(res){
+    
     const container = document.getElementById("container");
     const outerDiv = document.createElement("div");
     outerDiv.setAttribute("class","container")

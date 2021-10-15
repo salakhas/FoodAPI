@@ -16,7 +16,7 @@ function Navbar (){
       <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
     <ul class="navbar-nav ml-auto " style="color: white;">
         <li class="nav-item active list-inline-item"><a class="nav-link text-light" href="recipeOfTheDay.html">Recipe of the day</a></li>
-        <li class="nav-item active list-inline-item"><a class="nav-link text-light" href="">Show latest recipe</a></li>
+        <li class="nav-item active list-inline-item"><a class="nav-link text-light" href="latest.html">Show latest recipe</a></li>
     </ul>
     </div>
   </nav>`
